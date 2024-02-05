@@ -26,6 +26,9 @@ body{
     top: 0px;
     align-items: center;
 }
+main{
+    margin-bottom: 4rem;
+}
 .titulo{
     display: flex;
     justify-content: center;
@@ -143,13 +146,24 @@ h2{
         padding-right: 20px;
         position: fixed;
         width: 100%;
+        padding-right: 15px;
     }
     .logo{
         margin: 0;
     }
 
     a{
-        
+        padding-right: 20px;
         color: white;
     }
+}
+footer{
+    width: 95%;
+    height: 5rem;
+    background-color: var(--aqua);
+    color: #bbdef0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 100px;
 }
